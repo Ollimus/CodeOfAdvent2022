@@ -112,10 +112,6 @@ var yourStrategy = new List<KeyValuePair<char, GameConditions>>()
 };
 
 //var tactics = new List<KeyValuePair<char, string>>()
-
-// 6 for winning, 0 for losing, 3 for tie.
-points = new Points(victoryValue: 6, defeatValue: 0, tieValue: 3);
-
 playerScore = 0;
 
 foreach (var line in File.ReadAllLines("./PuzzleInput.dat"))
